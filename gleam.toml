@@ -1,0 +1,19 @@
+name = "flixi"
+version = "1.0.0"
+description = "Use the fixi.js hypermedia library with Lustre!"
+
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "lpil", repo = "flixi" }
+links = [
+  { title = "fixi.js", href = "https://github.com/bigskysoftware/fixi" },
+  { title = "Sponsor", href = "https://github.com/sponsors/lpil" },
+]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_http = ">= 4.3.0 and < 5.0.0"
+lustre = ">= 5.6.0 and < 6.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+simplifile = ">= 2.4.0 and < 3.0.0"
